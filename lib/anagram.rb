@@ -12,8 +12,8 @@ class Anagram
   words.select {|x| x.split("").sort == @word.split("").sort}
      
    # a= words.map{ |i| "#{i}" }.sort
-    a.each do |i|
-    a[i].split(//).sort == @word.split(//).sort
+   # a.each do |i|
+   # a[i].split(//).sort == @word.split(//).sort
       
       
         #
