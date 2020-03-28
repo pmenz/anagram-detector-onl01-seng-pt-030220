@@ -13,8 +13,8 @@ class Anagram
      
     a= words.map{ |i| "#{i}" }.sort
     a.each do |i|
-       a[i].split(//).sort == word.split(//).sort
-        a[i]
+    a[i].split(//).sort == @word.split(//).sort
+      
       
         #
       end
