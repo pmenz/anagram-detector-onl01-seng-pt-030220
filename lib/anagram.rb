@@ -11,7 +11,7 @@ class Anagram
     
     a= words.map{ |i| "#{i}" }.sort
     a.each do
-      if a[i].sort
+      if a[i].split(//).sort ==
     #array.map{ |i|  %Q('#{i}') }.join(',')
   end
 end
