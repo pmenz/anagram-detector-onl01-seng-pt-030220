@@ -10,13 +10,12 @@ class Anagram
   def match(words)
     
     a= words.map{ |i| "#{i}" }.sort
-    a.each do
-      if a[i].split(//).sort == word.split(//).sort
+    if a[i].split(//).sort == word.split(//).sort
         a[i]
       else
         a.clean
       end
-    end
+    
     #array.map{ |i|  %Q('#{i}')  }.join(',')
   end
 end
