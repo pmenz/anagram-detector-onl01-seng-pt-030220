@@ -11,7 +11,7 @@ class Anagram
     
     a= words.map{ |i| "#{i}" }.sort
     a.each do |i|
-      if a[i].split(//).sort == word.split(//).sort
+       a[i].split(//).sort == word.split(//).sort
         a[i]
       else
         a.clean
