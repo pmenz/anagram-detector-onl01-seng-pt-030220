@@ -13,8 +13,8 @@ class Anagram
     a.each do |i|
        a[i].split(//).sort == word.split(//).sort
         a[i]
-      else
-        a.clean
+      
+        
       end
     
     #array.map{ |i|  %Q('#{i}')  }.join(',')
