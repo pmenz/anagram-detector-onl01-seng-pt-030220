@@ -17,7 +17,7 @@ class Anagram
       
       
         #
-      end
+     # end
     
     #array.map{ |i|  %Q('#{i}')  }.join(',')
   end
