@@ -9,9 +9,9 @@ class Anagram
   
   def match(words)
   
-  #array.select {|x| x.split("").sort == @name.split("").sort}
+  words.select {|x| x.split("").sort == @word.split("").sort}
      
-    a= words.map{ |i| "#{i}" }.sort
+   # a= words.map{ |i| "#{i}" }.sort
     a.each do |i|
     a[i].split(//).sort == @word.split(//).sort
       
