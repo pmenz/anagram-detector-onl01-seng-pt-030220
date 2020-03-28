@@ -16,6 +16,7 @@ class Anagram
       else
         a.clean
       end
+    end
     #array.map{ |i|  %Q('#{i}')  }.join(',')
   end
 end
