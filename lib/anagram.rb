@@ -9,7 +9,7 @@ class Anagram
   
   def match(words)
     
-    words.map{ |i| "#{i}" }.chars.sort
+    words.map{ |i| "#{i}" }.sort
     #array.map{ |i|  %Q('#{i}') }.join(',')
   end
 end
