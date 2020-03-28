@@ -10,7 +10,7 @@ class Anagram
   def match(words)
     
     a= words.map{ |i| "#{i}" }.sort
-    a.each do
+    a.each do |i|
       if a[i].split(//).sort == word.split(//).sort
         a[i]
       else
